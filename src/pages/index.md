@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/women-936549_1920.jpg
+image: /img/fond-header.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
