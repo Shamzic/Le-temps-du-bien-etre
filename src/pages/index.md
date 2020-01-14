@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
-title: Marianne et Catherine - Massages professionels
+title: Les massages de Catherine
 image: /img/fond-header.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Massages professionnels
+subheading: Une nouvelle façon de masser au Mans
 mainpitch:
-  title: Why Kaldi
+  title: Pourquoi nous ?
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
