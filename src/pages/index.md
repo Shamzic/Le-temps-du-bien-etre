@@ -1,18 +1,15 @@
 ---
 templateKey: index-page
-title: Les massages de Catherine
+title: Le temps du Bien-Etre
 image: /img/fond-header.jpg
 heading: Massages professionnels
-subheading: Une nouvelle façon de masser au Mans
+subheading: Ici et maintenant
 mainpitch:
-  title: Pourquoi nous ?
+  title: Besoin de temps pour vous ressourcer au naturel ?
   description: >
-    Après une formation spécialisée de plusieurs mois, nous vous proposons nos service de massage sur la ville du Mans.
+    Une approche différente de votre bien être dans le temps autour des bienfaits du massage et du potentiel que nous  offre la nature.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Catherine Petitbon vous propose ses différents services de bien-être décliné sous différentes formules. Selons vos envie, découvrez les soins prodigués
 intro:
   blurbs:
     - image: /img/coffee.png
