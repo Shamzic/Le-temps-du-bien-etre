@@ -7,7 +7,7 @@ subheading: Ici et maintenant
 mainpitch:
   title: Besoin de temps pour vous ressourcer au naturel ?
   description: >
-    Une approche différente de votre bien être dans le temps autour des bienfaits du massage et du potentiel que nous  offre la nature.
+    « Une approche différente de votre bien être autour des bienfaits du Massage et du potentiel que nous offre la Nature »
 description: >-
   Catherine Petitbon vous propose ses différents services de bien-être décliné sous différentes formules. Selons vos envie, découvrez les soins prodigués
 intro:

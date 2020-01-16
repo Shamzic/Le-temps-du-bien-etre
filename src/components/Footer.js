@@ -11,13 +11,13 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
+        {/*<div className="content has-text-centered">
           <img
             src={logo}
             alt="Kaldi"
             style={{ width: '14em', height: '10em' }}
           />
-        </div>
+        </div>*/}
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div className="columns">
@@ -39,7 +39,7 @@ const Footer = class extends React.Component {
                         Services
                       </Link>
                     </li>
-                    <li>
+                    {/*<li>
                       <Link className="navbar-item" to="/contact/examples">
                         Exemples de formulaires
                       </Link>
@@ -53,7 +53,7 @@ const Footer = class extends React.Component {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li>*/}
                   </ul>
                 </section>
               </div>
@@ -62,7 +62,7 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                        Actualités
                       </Link>
                     </li>
                     <li>
@@ -96,13 +96,13 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                {/*}<a title="vimeo" href="https://vimeo.com">
                   <img
                     src={vimeo}
                     alt="Vimeo"
                     style={{ width: '1em', height: '1em' }}
                   />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

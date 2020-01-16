@@ -1,19 +1,31 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: A propos
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Mon parcours
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+|Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Le bien-être pour moi
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+C'est un partage.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+C'est quand une personne me dit **MERCI**, tu m'as apporté quelque chose qui m'a fait du bien et je t'en suis reconnaissant.
+
+C'est quand les personnes qui viennent chez moi arrivent et repartent avec le sourire , heureuses d'avoir passé un bon moment de détente, de ressourcement.
+
+C'est quand j'ai pu partager un moment convivial avec une personne et que celle ci se sent bien ou mieux.
+
+
+C'est se retrouver dans un lieu pour échanger quelques conseils ou informations afin d'améliorer le bien – être d'une personne ou  discuter et écouter tout simplement.
+
+C'est quand on peut prendre du temps à une personne pour partager, échanger, conseiller, ...masser.... et avoir un retour positif de la personne qui me dit : *« il faudra recommencer cette expérience »*
+
+C'est donner un ptit coup de  pouce pour se sentir bien, c'est l'antistress, la relaxation du corps et de l'esprit.
+
+### Mon idée et mon concept
+
+Créer un endroit où les gens  prennent leur temps venir partager pleinement du bien -être, prendre du temps pour eux et trouver un ressourcement durable dans le temps, par les massages alliés aux bienfaits préventifs et curatifs des plantes.
+
+**« Le temps s’arrête pour vous Ici, Maintenant et Après : Plénitude, Profondeur, Permanence du Corps et de la Nature »**
