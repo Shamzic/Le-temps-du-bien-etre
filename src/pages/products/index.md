@@ -1,14 +1,11 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+title: Services
+image: /img/services-couverture.jpg
+heading: Une variété de services adaptés à vos besoins
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Je vous propose d'allier des techniques de massage et rituels du corps personnalisés avec les bienfaits de la phytothérapie (soins par les plantes) afin d'adapter et de cibler vos besoins, pour une efficacité optimale et durable de votre bien-être et une détente profonde et permanente.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -77,25 +74,40 @@ pricing:
     monthly subscription plans to receive great coffee at your doorstep each
     month. Contact us about more details and payment info.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Le temps d'un apaisement durant 1 heure de massage
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - Massage Indien complet du corps
+        - En douceur avec de l’huile chaude (sésame ou coco) vous apporte harmonie, détente et vitalité
+        - Un moment de douceur et de délicatesse rien que pour vous
+      plan: "L'Abyhanga"
+      price: '90'
+    - description: Le temps d'un bilan énergétique durant 1 heure de massage
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Massage profond (sans huile)
+        - Effectué selon l’art traditionnel ancestral japonais
+        - Permet de dénouer vos tension et rééquilibre vos énergies
+      plan: "Le Shiatsu"
+      price: '90'
+    - description: Le temps d’une bonne dynamique durant 1 heure de massage
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - Massage Balinais drainant, circulatoire
+        - Energisant et relaxant, vous permettra de libérer la circulation des fluides
+        - Libère la circulation des fluides, ré-harmonise l’énergie subtile qui est en vous
+      plan: "Le Balinais"
+      price: '90'
+  planstwo:
+    - description: Le temps d’un regain de vitalité durant 1 heure de massage
+      items:
+        - Massage traditionnel Thaïlandais alternant étirements et mobilisations rythmés et profonds
+        - Manœuvres énergisantes et tonifiantes pour une relance de l'énergie et une détente profonde 
+        - Invitation au lâcher-prise
+      plan:  "Le Thaïlandais à l'huile"
+      price: '90'
+    - description: Le temps d'un éclaircissement durant 30 minutes de massage
+      items:
+        - Massage Indien du buste et de la tête
+        - Renforce la chevelure, entretient la vue, la mémoire et apporte le calme
+        - Douceur et fermeté
+      plan: "Le Shirotchampi"
+      price: '39'
 ---

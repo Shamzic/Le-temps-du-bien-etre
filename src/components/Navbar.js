@@ -15,19 +15,13 @@ const Navbar = class extends React.Component {
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(
-      {
-        active: !this.state.active,
-      },
+      {active: !this.state.active,},
       // after state has been updated,
       () => {
         // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
+        this.state.active ?
+          this.setState({navBarActiveClass: 'is-active',})
+          : this.setState({navBarActiveClass: '',})
       }
     )
   }
@@ -60,14 +54,14 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered" style={{ fontSize: '18px', fontWeight: 'bold'}}>
-              <Link className="navbar-item" to="/about" >
-                A propos
-              </Link>
               <Link className="navbar-item" to="/products">
                 Services
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
+              </Link>
+              <Link className="navbar-item" to="/about" >
+                A propos
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
