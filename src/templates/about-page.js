@@ -10,10 +10,36 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   return (
     <section className="section section--gradient">
       <div className="container">
+        <div
+          className="full-width-image-container margin-top-1"
+          style={{
+            backgroundImage: `url(/img/apropos-couverture.jpg)`,
+            backgroundPosition: 'center center',
+            marginTop: '-10%',
+            height: '450px'
+          }}>
+          <div className="columns">
+            <div className="column is-7" style={{  display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+              <h2 className="title is-size-1 has-text-weight-bold is-bold-light"
+              style={{
+                boxShadow: '0.5rem 0 0 rgb(11, 19, 3, 0.3), -0.5rem 0 0 rgb(11, 19, 3, 0.3)',
+                backgroundColor: 'rgb(11, 19, 3, 0.3)',
+                color: 'white',
+                padding: '1rem',
+                borderRadius: '15px'
+              }}>
+                {title}
+              </h2>
+            </div>
+            <div className="column" style={{ textAlign:'center'}}>
+              <img src="/img/avatar-f.png" alt="" style={{ maxWidth: '60%', height: 'auto'}}/>
+            </div>
+          </div>
+        </div>
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
-              <div className="columns">
+            <div className="section"  style={{ textAlign: 'justify'}}>
+              {/*}<div className="columns">
                 <div className="column is-6" style={{  display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light" >
                     {title}
@@ -22,7 +48,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 <div className="column" style={{ textAlign:'center'}}>
                   <img src="/img/avatar-f.png" alt="" style={{ maxWidth: '50%', height: 'auto'}}/>
                 </div>
-              </div>
+              </div> */}
               <PageContent className="content" content={content} />
             </div>
           </div>

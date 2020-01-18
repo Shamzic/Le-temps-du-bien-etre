@@ -4,8 +4,7 @@ path: /about
 title: A propos
 ---
 ### Mon parcours
-
-|Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger ||Texte a rédiger
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.
 
 ### Le bien-être pour moi
 
