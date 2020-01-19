@@ -20,6 +20,7 @@ export default class Index extends React.Component {
 
   handleSubmit = e => {
     e.preventDefault()
+    console.log("test"+e);
     const form = e.target
     fetch('/', {
       method: 'POST',
@@ -76,7 +77,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Votre nom
+                    Nom :
                   </label>
                   <div className="control">
                     <input
@@ -91,7 +92,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Votre adresse mail
+                    Adresse mail :
                   </label>
                   <div className="control">
                     <input
@@ -106,7 +107,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Votre message
+                    Message
                   </label>
                   <div className="control">
                     <textarea
