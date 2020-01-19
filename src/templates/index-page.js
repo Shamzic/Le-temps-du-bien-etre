@@ -24,9 +24,6 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: 'center  -150px',
-        height: '500px',
-        backgroundAttachment: 'fixed',
       }}
     >
       <div

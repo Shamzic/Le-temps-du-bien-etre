@@ -45,13 +45,33 @@ $black: #011c11
   align-items: center
 
 .full-width-image
-    width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
-    display: flex
-    justify-content: center
-    align-items: center
+  width: 100%
+  height: 500px
+  background-size: cover
+  background-position: center  -280px
+  background-attachment: fixed
+  display: flex
+  justify-content: center
+  align-items: center
+
+@media only screen and (max-width: 1024px)
+  .full-width-image
+      height: 200px
+      max-width: 100%
+      background-position: center  -220px
+      background-attachment: local
+
+@media only screen and (max-width: 800px)
+  .full-width-image
+      background-position: center  -120px
+
+@media only screen and (max-width: 600px)
+  .full-width-image
+      background-position: center  -50px
+
+@media only screen and (max-width: 400px)
+  .full-width-image
+      background-position: center  0
 
 .btn
     display: inline-block
@@ -63,10 +83,10 @@ $black: #011c11
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #013014
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #013014
+    box-shadow: inset 0 0 0 2px #00a610
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
