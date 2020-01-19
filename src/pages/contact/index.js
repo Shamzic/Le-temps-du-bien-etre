@@ -39,7 +39,25 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+            <div
+              className="full-width-image-container margin-top-1"
+              style={{
+                backgroundImage: `url(/img/mail-couverture.jpg)`,
+                backgroundPosition: 'left center',
+                marginTop: '-10%',
+                height: '450px'
+              }}>
+                  <h2 className="title is-size-1 has-text-weight-bold is-bold-light"
+                  style={{
+                    boxShadow: '0.5rem 0 0 rgb(11, 19, 3, 0.3), -0.5rem 0 0 rgb(11, 19, 3, 0.3)',
+                    backgroundColor: 'rgb(11, 19, 3, 0.3)',
+                    color: 'white',
+                    padding: '1rem',
+                    borderRadius: '15px'
+                  }}>
+                    Contact
+                  </h2>
+            </div>
               <form
                 name="contact"
                 method="post"
@@ -52,13 +70,13 @@ export default class Index extends React.Component {
                 <input type="hidden" name="form-name" value="contact" />
                 <div hidden>
                   <label>
-                    Don’t fill this out:{' '}
+                  Ne remplissez pas cela:{' '}
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'name'}>
-                    Your name
+                    Votre nom
                   </label>
                   <div className="control">
                     <input
@@ -73,7 +91,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'email'}>
-                    Email
+                    Votre adresse mail
                   </label>
                   <div className="control">
                     <input
@@ -88,7 +106,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="field">
                   <label className="label" htmlFor={'message'}>
-                    Message
+                    Votre message
                   </label>
                   <div className="control">
                     <textarea
@@ -101,8 +119,8 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
+                  <button className="button" type="submit">
+                    Envoyer
                   </button>
                 </div>
               </form>

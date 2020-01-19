@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Ceci est un titre d'article exemple 1
+title: Titre d'article exemple 1
 date: 2019-01-17T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/women-936549_1920.jpg

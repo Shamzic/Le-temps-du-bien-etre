@@ -78,37 +78,37 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                  <div className="tile" >
+                    <h3 className="title">{mainpitch.title}</h3>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <p className="subtitle" style={{ fontStyle: 'italic'}}>{mainpitch.description}</p>
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-2"  style={{textAlign: 'center'}}>
                       {heading}
                     </h3>
-                    <p>{description}</p>
+                    <p>{description} </p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      See all products
+                      Voir tous les services
                     </Link>
                   </div>
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Dernières actualités
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Read more
+                      Lire plus
                     </Link>
                   </div>
                 </div>
