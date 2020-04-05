@@ -22,9 +22,3 @@ C'est se retrouver dans un lieu pour échanger quelques conseils ou informations
 C'est quand on peut prendre du temps à une personne pour partager, échanger, conseiller, ...masser.... et avoir un retour positif de la personne qui me dit : *« il faudra recommencer cette expérience »*
 
 C'est donner un ptit coup de  pouce pour se sentir bien, c'est l'antistress, la relaxation du corps et de l'esprit.
-
-### Mon idée et mon concept
-
-Créer un endroit où les gens  prennent leur temps venir partager pleinement du bien -être, prendre du temps pour eux et trouver un ressourcement durable dans le temps, par les massages alliés aux bienfaits préventifs et curatifs des plantes.
-
-**« Le temps s’arrête pour vous Ici, Maintenant et Après : Plénitude, Profondeur, Permanence du Corps et de la Nature »**

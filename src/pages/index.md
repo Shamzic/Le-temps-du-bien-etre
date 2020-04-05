@@ -9,16 +9,13 @@ mainpitch:
   description: >
     « Une approche différente de votre bien être autour des bienfaits du Massage et du potentiel que nous offre la Nature »
 description: >-
-  Différents services de bien-être déclinés sous différentes formules selons vos envies...
+  Différentes prestations de bien-être déclinées sous différentes formules selons vos envies...
 intro:
   blurbs:
-    - image: /img/jacuzzi.jpg
-      text: >
-        Espace balneo en extérieur avec jacuzzi, sauna et bain nordique, jardin de plantes aromatiques, de fleurs et d’arbustes. Bain de vapeur en intérieur.
     - image: /img/massage-gros-plan.jpg
       text: >
-        Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. un ensemble de massages particuliers vous est proposé.
-
+        Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé. 
+        Cliquez sur le bouton ci-dessous pour en savoir plus sur toutes les prestations disponibles
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

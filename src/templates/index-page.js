@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+import Features2 from '../components/Features2'
 import BlogRoll from '../components/BlogRoll'
 
 import './index-page-style.css'
@@ -87,14 +87,14 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2"  style={{textAlign: 'center'}}>
                       {heading}
                     </h3>
-                    <p>{description} </p>
+                    <p >{description} </p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                <Features2 gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      Voir tous les services
+                      Voir toutes les prestations
                     </Link>
                   </div>
                 </div>

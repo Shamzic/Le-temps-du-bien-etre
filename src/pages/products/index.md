@@ -1,9 +1,9 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Services
+title: Prestations
 image: /img/services-couverture.jpg
-heading: Une variété de services adaptés à vos besoins
+heading: Une variété de prestations adaptées à vos besoins
 description: >-
   Je vous propose d'allier des techniques de massage et rituels du corps personnalisés avec les bienfaits de la phytothérapie (soins par les plantes) afin d'adapter et de cibler vos besoins, pour une efficacité optimale et durable de votre bien-être et une détente profonde et permanente.
 intro:
@@ -95,4 +95,11 @@ pricing:
         - Douceur et fermeté
       plan: "Le Shirotchampi"
       price: '39'
+    - description: Pierres chaudes et cristaux semi-précieux
+      items:
+        - A définir
+        - A définir
+        - A définit
+      plan: "Prochainement"
+      price: '0'    
 ---
