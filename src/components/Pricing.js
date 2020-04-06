@@ -9,8 +9,8 @@ const Pricing = ({ data }) => (
           <h2 className="has-text-centered has-text-weight-semibold" style={{fontStyle: 'italic'}}>
             {price.plan}
           </h2>
-          <h2 className="is-size-3 has-text-weight-bold has-text-primary has-text-centered">
-          €{price.price}
+          <h2 className="is-size-4 has-text-weight-bold has-text-primary has-text-centered">
+          {price.price}
           </h2>
           <p className="has-text-weight-semibold">{price.description}</p>
           <ul>

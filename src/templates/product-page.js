@@ -55,6 +55,7 @@ export const ProductPageTemplate = ({
               <Features gridItems={intro.blurbs} />
               <Pricing data={pricing.plans} />
               <Pricing data={pricing.planstwo} />
+              <Pricing data={pricing.plansthree} />
             {/*   <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -245,6 +246,12 @@ export const productPageQuery = graphql`
             price
           }
           planstwo {
+            description
+            items
+            plan
+            price
+          }
+          plansthree {
             description
             items
             plan
