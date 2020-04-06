@@ -1,22 +1,22 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Prestations
+title: Vos massages
 image: /img/services-couverture.jpg
 heading: Une variété de prestations adaptées à vos besoins
 description: >-
   Je vous propose d'allier des techniques de massage et rituels du corps personnalisés avec les bienfaits de la phytothérapie (soins par les plantes) afin d'adapter et de cibler vos besoins, pour une efficacité optimale et durable de votre bien-être et une détente profonde et permanente.
 intro:
   blurbs:
-    - image: /img/jacuzzi.jpg
-      text: >
-        Espace balneo en extérieur avec jacuzzi, sauna et bain nordique, jardin de plantes aromatiques, de fleurs et d’arbustes. Bain de vapeur en intérieur.
+    # - image: /img/jacuzzi.jpg
+    #   text: >
+    #     Espace balneo en extérieur avec jacuzzi, sauna et bain nordique, jardin de plantes aromatiques, de fleurs et d’arbustes. Bain de vapeur en intérieur.
     - image: /img/plantes-medicinales.jpg
       text: >
         Espace pédagogique avec des ateliers d'animations éducatives autour des plantes médicinales. Fabrication de remèdes simples à base de plantes pour améliorer sa santé. Propriétés préventives et curatives.
-    - image: /img/boutique.jpg
-      text: >
-        Espace de repos et vente produits avec un bibliothèque, des transats et hamacs, une tisanerie, des produits bio divers (thé, tisanes, huiles et crèmes), des bijoux.
+    # - image: /img/boutique.jpg
+    #   text: >
+    #     Espace de repos et vente produits avec un bibliothèque, des transats et hamacs, une tisanerie, des produits bio divers (thé, tisanes, huiles et crèmes), des bijoux.
     - image: /img/massage-gros-plan.jpg
       text: >
         Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages particuliers vous est proposé. Les tarifs sont disponibles ci-dessous.

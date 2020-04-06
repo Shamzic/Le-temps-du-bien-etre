@@ -4,7 +4,9 @@ path: /about
 title: A propos
 ---
 ### Mon parcours
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique, fugiat vero eligendi nostrum laborum quae iure dolorem ullam blanditiis sint quo quasi iste, reprehenderit ipsum sapiente quaerat reiciendis? Voluptatem.
+Je m'appelle Catherine PETITBON, j'ai 53 ans et j'ai fait une formation à RENNES (SANTAYAREA) pour devenir "Praticienne en massages bien-être". Cette formation m'a permis de confirmer mon envie de faire ce métier et d'apporter du bien-être aux gens. 
+
+Ce diplôme de "Praticienne massages bien-être" est un titre certifié au RNCP (Registre National de Certification Professionnelle) et m'a permis d'acquérir des compétences en techniques corporelles au plus près des traditions (Chine, Japon, Indonésie, Thaïlande).
 
 ### Le bien-être pour moi
 
