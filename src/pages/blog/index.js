@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
         <Helmet>
           <meta charSet='utf-8' />
           <link
-            href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap'
             rel='stylesheet'
           />
         </Helmet>
@@ -19,7 +19,6 @@ export default class BlogIndexPage extends React.Component {
           style={{
             backgroundImage: `url('/img/blog-couverture.jpg')`,
             backgroundPosition: "center center",
-
             fontFamily: "Cinzel Decorative, cursive",
           }}
         >

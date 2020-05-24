@@ -13,7 +13,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <Helmet>
         <meta charSet='utf-8' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap'
           rel='stylesheet'
         />
       </Helmet>
@@ -46,6 +46,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                   color: "white",
                   padding: "1rem",
                   borderRadius: "15px",
+                  fontFamily: "Cinzel Decorative, cursive",
                 }}
               >
                 {title}
@@ -66,7 +67,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         </div>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
-            <div className='section' style={{ textAlign: "justify" }}>
+            <div
+              className='section'
+              style={{
+                textAlign: "justify",
+                fontFamily: "Open Sans",
+              }}
+            >
               {/*}<div className="columns">
                 <div className="column is-6" style={{  display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light" >
