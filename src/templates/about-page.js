@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import { Helmet } from "react-helmet";
 import Content, { HTMLContent } from "../components/Content";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -9,6 +10,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className='section section--gradient'>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap'
+          rel='stylesheet'
+        />
+      </Helmet>
       <div className='container'>
         <div
           className='full-width-image-container margin-top-1'
@@ -17,6 +25,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
             backgroundPosition: "center center",
             marginTop: "-10%",
             height: "450px",
+            fontFamily: "Cinzel Decorative, cursive",
           }}
         >
           <div className='columns'>
@@ -46,7 +55,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <img
                 src='/img/catherine.jpg'
                 alt=''
-                style={{ maxWidth: "40%", height: "auto", borderRadius: "50%" }}
+                style={{
+                  maxWidth: "45%",
+                  height: "auto",
+                  borderRadius: "160px",
+                }}
               />
             </div>
           </div>
@@ -54,6 +67,16 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
             <div className='section' style={{ textAlign: "justify" }}>
+              {/*}<div className="columns">
+                <div className="column is-6" style={{  display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light" >
+                    {title}
+                  </h2>
+                </div>
+                <div className="column" style={{ textAlign:'center'}}>
+                  <img src="/img/avatar-f.png" alt="" style={{ maxWidth: '50%', height: 'auto'}}/>
+                </div>
+              </div> */}
               <PageContent className='content' content={content} />
             </div>
           </div>
