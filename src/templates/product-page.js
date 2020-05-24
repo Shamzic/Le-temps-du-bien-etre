@@ -1,12 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
+import Pricing from "../components/Pricing";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
+import { Helmet } from "react-helmet";
 export const ProductPageTemplate = ({
   image,
   title,
@@ -18,45 +19,56 @@ export const ProductPageTemplate = ({
   fullImage,
   pricing,
 }) => (
-  <div className="content" >
+  <div className='content'>
+    <Helmet>
+      <meta charSet='utf-8' />
+      <link
+        href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap'
+        rel='stylesheet'
+      />
+    </Helmet>
     <div
-      className="full-width-image-container margin-top-0"
+      className='full-width-image-container margin-top-0'
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: 'center center'
+        backgroundPosition: "center center",
       }}
     >
       <h3
-        className="has-text-weight-bold is-size-1"
+        className='has-text-weight-bold is-size-1'
         style={{
-          boxShadow: '0.5rem 0 0 rgb(11, 19, 3, 0.3), -0.5rem 0 0 rgb(11, 19, 3, 0.3)',
-          backgroundColor: 'rgb(11, 19, 3, 0.3)',
-          color: 'white',
-          padding: '1rem',
-          borderRadius: '15px'
+          boxShadow:
+            "0.5rem 0 0 rgb(11, 19, 3, 0.3), -0.5rem 0 0 rgb(11, 19, 3, 0.3)",
+          backgroundColor: "rgb(11, 19, 3, 0.3)",
+          color: "white",
+          padding: "1rem",
+          borderRadius: "15px",
+          fontFamily: "Cinzel Decorative, cursive",
         }}
       >
         {title}
       </h3>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p className=" is-size-5" style={{textAlign: 'justify'}}>{description}</p>
+    <section className='section section--gradient'>
+      <div className='container'>
+        <div className='section'>
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
+              <h3 className='has-text-weight-semibold is-size-2'>{heading}</h3>
+              <p className=' is-size-5' style={{ textAlign: "justify" }}>
+                {description}
+              </p>
             </div>
           </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
               <Features gridItems={intro.blurbs} />
               <Pricing data={pricing.plans} />
               <Pricing data={pricing.planstwo} />
               <Pricing data={pricing.plansthree} />
-            {/*   <div className="columns">
+              {/*   <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
@@ -107,7 +119,7 @@ export const ProductPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -131,10 +143,10 @@ ProductPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
-}
+};
 
 const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -150,8 +162,8 @@ const ProductPage = ({ data }) => {
         pricing={frontmatter.pricing}
       />
     </Layout>
-  )
-}
+  );
+};
 
 ProductPage.propTypes = {
   data: PropTypes.shape({
@@ -159,9 +171,9 @@ ProductPage.propTypes = {
       frontmatter: PropTypes.object,
     }),
   }),
-}
+};
 
-export default ProductPage
+export default ProductPage;
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
@@ -261,4 +273,4 @@ export const productPageQuery = graphql`
       }
     }
   }
-`
+`;

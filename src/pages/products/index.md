@@ -1,5 +1,5 @@
 ---
-templateKey: 'product-page'
+templateKey: "product-page"
 path: /products
 title: Vos massages
 image: /img/services-couverture.jpg
@@ -11,9 +11,9 @@ intro:
     # - image: /img/jacuzzi.jpg
     #   text: >
     #     Espace balneo en extérieur avec jacuzzi, sauna et bain nordique, jardin de plantes aromatiques, de fleurs et d’arbustes. Bain de vapeur en intérieur.
-    - image: /img/plantes-medicinales.jpg
-      text: >
-        Espace pédagogique avec des ateliers d'animations éducatives autour des plantes médicinales. Fabrication de remèdes simples à base de plantes pour améliorer sa santé. Propriétés préventives et curatives.
+    # - image: /img/plantes-medicinales.jpg
+    #   text: >
+    #     Espace pédagogique avec des ateliers d'animations éducatives autour des plantes médicinales. Fabrication de remèdes simples à base de plantes pour améliorer sa santé. Propriétés préventives et curatives.
     # - image: /img/boutique.jpg
     #   text: >
     #     Espace de repos et vente produits avec un bibliothèque, des transats et hamacs, une tisanerie, des produits bio divers (thé, tisanes, huiles et crèmes), des bijoux.
@@ -72,36 +72,36 @@ pricing:
         - Effectué selon l’art traditionnel ancestral japonais
         - Permet de dénouer vos tension et rééquilibre vos énergies
       plan: "Le Shiatsu"
-      price: '1h: 85€ / 1h30: 115€'
+      price: "1h: 85€ / 1h30: 115€"
     - description: Le temps d’une bonne dynamique
       items:
         - Massage Balinais drainant, circulatoire
         - Energisant et relaxant, vous permettra de libérer la circulation des fluides
         - Libère la circulation des fluides, ré-harmonise l’énergie subtile qui est en vous
       plan: "Le Balinais"
-      price: '1h: 85€ / 1h30: 115€'
+      price: "1h: 85€ / 1h30: 115€"
   planstwo:
     - description: Le temps d’un regain de vitalité
       items:
         - Massage traditionnel Thaïlandais alternant étirements et mobilisations rythmés et profonds
-        - Manœuvres énergisantes et tonifiantes pour une relance de l'énergie et une détente profonde 
+        - Manœuvres énergisantes et tonifiantes pour une relance de l'énergie et une détente profonde
         - Invitation au lâcher-prise
-      plan:  "Le Thaïlandais à l'huile"
-      price: '1h: 85€ / 1h30: 115€'
+      plan: "Le Thaïlandais à l'huile"
+      price: "1h: 85€ / 1h30: 115€"
     - description: Le temps d'un éclaircissement
       items:
         - Massage Indien du buste et de la tête
         - Renforce la chevelure, entretient la vue, la mémoire et apporte le calme
         - Douceur et fermeté
       plan: "Le Shirotchampi"
-      price: '45m: 75€ / 1h: 85€'
+      price: "45m: 75€ / 1h: 85€"
     - description: Le temps d'une harmonisation
       items:
         - Massage Indien des pieds très agréable et relaxant pour une détente
         - Ré-harmonisation globale
         - Un plein d'énergie
       plan: "La Réflexologie"
-      price: '45m: 75€ / 1h: 85€'
+      price: "45m: 75€ / 1h: 85€"
   plansthree:
     - description: Le temps d’un étirement
       items:
@@ -109,12 +109,12 @@ pricing:
         - Sollicite toutle système musculaire par une gestuelle rythmique
         - Des pressions et des étirements doux
       plan: "le Thaïlandais au sol"
-      price: '1h: 85€ / 1h30: 115€'
+      price: "1h: 85€ / 1h30: 115€"
     - description: Pierres chaudes et cristaux semi-précieux
       items:
         - A définir
         - A définir
         - A définit
       plan: "Prochainement"
-      price: 'A définir'    
+      price: "A définir"
 ---
