@@ -44,11 +44,12 @@ class BlogRoll extends React.Component {
                   ) : null}
                   <p className='post-meta'>
                     <Link
-                      className='title has-text-primary is-size-4'
+                      className='title has-text-primary'
                       to={post.fields.slug}
                       style={{
                         textDecoration: "none",
                         fontFamily: "Cinzel Decorative, cursive",
+                        fontSize: "19px",
                       }}
                     >
                       {post.frontmatter.title}

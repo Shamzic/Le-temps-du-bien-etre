@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Le temps du Bien-Etre
+title: Le temps du mieux être
 image: /img/femme-massage-nature.jpg
 heading: Soins et massages professionnels
 subheading: Ici et maintenant

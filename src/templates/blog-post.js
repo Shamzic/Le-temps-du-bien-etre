@@ -36,9 +36,11 @@ export const BlogPostTemplate = ({
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
             <h1
-              className='title is-size-2.5 has-text-weight-bold is-bold-light'
+              className='title is-size-3 has-text-weight-bold is-bold-light'
               style={{
                 fontFamily: "Cinzel Decorative, cursive",
+                marginBottom: "5%",
+                marginTop: "1%",
               }}
             >
               {title}
