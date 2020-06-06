@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   mainpitch,
+  secondpitch,
   description,
   intro,
 }) => (
@@ -126,6 +127,36 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features2 gridItems={intro.blurbs} />
+                <div className='content'>
+                  <div
+                    className='tile'
+                    style={{
+                      fontFamily: "Open Sans, sans-serif",
+                    }}
+                  >
+                    <h4 className='title'>{secondpitch.title}</h4>
+                  </div>
+                  <div className='tile'>
+                    <p
+                      className='subtitle'
+                      style={{
+                        marginBottom: "5%",
+                        fontSize: "17px",
+                      }}
+                    >
+                      {secondpitch.description1}
+                      <br />
+                      <br />
+                      {secondpitch.description2}
+                      <br />
+                      <br />
+                      {secondpitch.description3}
+                      <br />
+                      <br />
+                      {secondpitch.description4}
+                    </p>
+                  </div>
+                </div>
                 <div className='columns'>
                   <div className='column is-12 has-text-centered'>
                     <Link className='btn' to='/products'>
@@ -159,6 +190,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
+  secondpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -176,6 +208,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
+        secondpitch={frontmatter.secondpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -225,6 +258,13 @@ export const pageQuery = graphql`
           }
           heading
           description
+        }
+        secondpitch {
+          title
+          description1
+          description2
+          description3
+          description4
         }
       }
     }

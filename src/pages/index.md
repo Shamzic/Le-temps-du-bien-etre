@@ -38,4 +38,14 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+secondpitch:
+  title: Déplacements à domicile
+  description1: >
+    Prévoyez un endroit isolé et calme pour recevoir le massage en toute intimité sans téléphones, ordinateurs ni horloges et une pièce spacieuse afin d'y mettre ma table de massage et pouvoir circuler autour.
+  description2: >
+    Préparez une ambiance tamisée, chaleureuse (bougie, encens...) selon vos goûts. Prévoyez le port d'une culotte ou d'un string et pour le haut, votre poitrine sera toujours recouverte d'une serviette.
+  description3: >
+    Prévoyez quelques serviettes de bain pour la table et  pour vous couvrir.
+  description4: >
+    Laissez vous aller pour profiter pleinement de ce massage, CHEZ VOUS, et prendre ensuite une douche ou profiter des bienfaits du massage en gardant l'huile sur le corps pour permettre une meilleure hydratation.
 ---
