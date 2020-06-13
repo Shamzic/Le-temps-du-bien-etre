@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Le toucher et le bien-etre
 date: 2020-04-04T15:04:10.000Z
-description: .
+description: " "
 featuredpost: false
 featuredimage: /img/massage-dos-dark.jpg
 tags:
@@ -17,7 +17,5 @@ Le toucher ne sert pas uniquement à recevoir des stimuli variés ou des sensati
 Les personnes qui souffrent de problèmes de peau (acné, eczéma), de maladies chroniques, comme les lombalgies et l'arthrose, ou qui présentent un faiblesse musculaire associée ou non à des adhérences, peuvent trouver certains gestes désagréables parce qu'elles sont davantage sensibles à la douleur. De même, les femmes enceintes et les personnes qui ont subi une intervention chirurgicale récente sont plus fragiles. C'est pourquoi les massages doivent toujours être personnalisés et adaptés au cas par cas.
 
 La communication entre le praticien en massage bien-être et son client est, à cet égard, primordiale. Chaque prestation devrait être précédée d'un interrogatoire succinct visant à éliminer tout facteur de risque et à déterminer quels sont **les massages contre-indiqués en fonction de l'état de santé de la personne massée**.
-
-
 
 Simon
