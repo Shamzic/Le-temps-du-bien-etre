@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
     <Helmet>
       <meta charSet='utf-8' />
       <link
-        href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap'
+        href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&family=Sacramento&display=swap'
         rel='stylesheet'
       />
     </Helmet>
@@ -50,22 +50,23 @@ export const IndexPageTemplate = ({
           className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
           style={{
             boxShadow:
-              "rgb(11, 19, 3, 0.6) 0.5rem 0px 0px, rgb(11, 19, 3, 0.6) -0.5rem 0px 0px",
-            backgroundColor: "rgb(11, 19, 3, 0.6)",
+              "rgb(11, 19, 3, 0.4) 0.5rem 0px 0px, rgb(11, 19, 3, 0.4) -0.5rem 0px 0px",
+            backgroundColor: "rgb(11, 19, 3, 0.4)",
             color: "white",
             lineHeight: "1",
             padding: "0.25em",
             borderRadius: "15px",
+            textAlign: "center",
           }}
         >
           {title}
         </h1>
         <h3
-          className='has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen'
+          className='has-text-weight-bold is-size-4-mobile is-size-4-tablet is-size-4-widescreen'
           style={{
             boxShadow:
-              "rgb(11, 19, 3, 0.6) 0.5rem 0px 0px, rgb(11, 19, 3, 0.6) -0.5rem 0px 0px",
-            backgroundColor: "rgb(11, 19, 3, 0.6)",
+              "rgb(11, 19, 3, 0.4) 0.5rem 0px 0px, rgb(11, 19, 3, 0.4) -0.5rem 0px 0px",
+            backgroundColor: "rgb(11, 19, 3, 0.4)",
             color: "white",
             lineHeight: "1",
             padding: "0.25em",
@@ -88,21 +89,27 @@ export const IndexPageTemplate = ({
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='content'>
-                <div className='content'>
+                <div
+                  className='content'
+                  style={{
+                    marginBottom: 0,
+                  }}
+                >
                   <div
                     className='tile'
                     style={{
                       fontFamily: "Open Sans, sans-serif",
                     }}
                   >
-                    <h4 className='title'>{mainpitch.title}</h4>
+                    <div className='has-text is-size-6'>{mainpitch.title}</div>
                   </div>
+                  <br />
                   <div className='tile'>
                     <p
                       className='subtitle'
                       style={{
                         fontStyle: "italic",
-                        marginBottom: "5%",
+                        marginBottom: "2%",
                         fontSize: "17px",
                       }}
                     >
@@ -112,29 +119,31 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className='columns'>
                   <div className='column is-12'>
-                    <h4
+                    <h3
                       className='has-text is-size-3'
                       style={{
                         textAlign: "center",
-                        fontFamily: "Open Sans, sans-serif",
+                        fontFamily: "Sacramento, cursive",
                       }}
                     >
                       {heading}
-                    </h4>
+                    </h3>
                     <p style={{ fontFamily: "Open Sans, sans-serif" }}>
                       {description}{" "}
                     </p>
                   </div>
                 </div>
-                <Features2 gridItems={intro.blurbs} />
                 <div className='content'>
-                  <div
-                    className='tile'
-                    style={{
-                      fontFamily: "Open Sans, sans-serif",
-                    }}
-                  >
-                    <h4 className='title'>{secondpitch.title}</h4>
+                  <div>
+                    <h3
+                      className='has-text is-size-3'
+                      style={{
+                        textAlign: "center",
+                        fontFamily: "Sacramento, cursive",
+                      }}
+                    >
+                      {secondpitch.title}
+                    </h3>
                   </div>
                   <div className='tile'>
                     <p
@@ -157,6 +166,10 @@ export const IndexPageTemplate = ({
                     </p>
                   </div>
                 </div>
+                {/* <Features2
+                  gridItems={intro.blurbs}
+                  style={{ marginLeft: "50%" }}
+                /> */}
                 <div className='columns'>
                   <div className='column is-12 has-text-centered'>
                     <Link className='btn' to='/products'>

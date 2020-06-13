@@ -10,11 +10,11 @@ mainpitch:
     « Une approche différente de votre bien être autour des bienfaits du Massage et du potentiel que nous offre la Nature »
 description: >-
   Différentes prestations de bien-être déclinées sous différentes formules selons vos envies...
+  Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé.
 intro:
   blurbs:
     - image: /img/massage-gros-plan.jpg
       text: >
-        Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé. 
         Cliquez sur le bouton ci-dessous pour en savoir plus sur toutes les prestations disponibles
   heading: What we offer
   description: >
