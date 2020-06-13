@@ -23,7 +23,7 @@ export const ProductPageTemplate = ({
     <Helmet>
       <meta charSet='utf-8' />
       <link
-        href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap'
+        href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&family=Sacramento&display=swap'
         rel='stylesheet'
       />
     </Helmet>
@@ -37,7 +37,7 @@ export const ProductPageTemplate = ({
       }}
     >
       <h3
-        className='has-text-weight-bold is-size-2'
+        className='has-text is-size-2'
         style={{
           boxShadow:
             "0.5rem 0 0 rgb(11, 19, 3, 0.3), -0.5rem 0 0 rgb(11, 19, 3, 0.3)",
@@ -61,7 +61,16 @@ export const ProductPageTemplate = ({
         <div className='section'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
-              <h3 className='has-text-weight-semibold is-size-3'>{heading}</h3>
+              <h1
+                className='has-text'
+                style={{
+                  marginTop: 0,
+                  textAlign: "center",
+                  fontFamily: "'Sacramento', cursive",
+                }}
+              >
+                {heading}
+              </h1>
               <p
                 style={{
                   textAlign: "justify",

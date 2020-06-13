@@ -81,6 +81,7 @@ export default class Index extends React.Component {
                 onSubmit={this.handleSubmit}
                 style={{
                   fontFamily: "Open Sans",
+                  marginTop: "30px",
                 }}
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}

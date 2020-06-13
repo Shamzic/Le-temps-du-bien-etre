@@ -9,6 +9,8 @@ import BlogRoll from "../components/BlogRoll";
 import "./index-page-style.css";
 import { Helmet } from "react-helmet";
 
+// href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&family=Sacramento&display=swap'
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -123,7 +125,7 @@ export const IndexPageTemplate = ({
                       className='has-text is-size-3'
                       style={{
                         textAlign: "center",
-                        fontFamily: "Sacramento, cursive",
+                        fontFamily: "'Sacramento', cursive",
                       }}
                     >
                       {heading}

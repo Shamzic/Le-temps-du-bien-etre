@@ -5,7 +5,15 @@ import Layout from "../components/Layout";
 import { Helmet } from "react-helmet";
 import Content, { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({
+  title,
+  firstTitle,
+  firstParagraph,
+  secondTitle,
+  secondParagraph,
+  content,
+  contentComponent,
+}) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -13,7 +21,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <Helmet>
         <meta charSet='utf-8' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans&family=Sacramento&display=swap'
           rel='stylesheet'
         />
       </Helmet>
@@ -72,18 +80,36 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               style={{
                 textAlign: "justify",
                 fontFamily: "Open Sans",
+                marginTop: "25px",
               }}
             >
-              {/*}<div className="columns">
-                <div className="column is-6" style={{  display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light" >
-                    {title}
-                  </h2>
-                </div>
-                <div className="column" style={{ textAlign:'center'}}>
-                  <img src="/img/avatar-f.png" alt="" style={{ maxWidth: '50%', height: 'auto'}}/>
-                </div>
-              </div> */}
+              <h3
+                className='has-text'
+                style={{
+                  textAlign: "center",
+                  fontSize: "35px",
+                  fontFamily: "Sacramento, cursive",
+                  fontWeight: "bold",
+                }}
+              >
+                {firstTitle}
+              </h3>
+
+              <div>{firstParagraph}</div>
+              <br />
+              <div>{secondParagraph}</div>
+              <h3
+                className='has-text'
+                style={{
+                  textAlign: "center",
+                  fontSize: "35px",
+                  fontFamily: "Sacramento, cursive",
+                  marginTop: "20px",
+                  fontWeight: "bold",
+                }}
+              >
+                {secondTitle}
+              </h3>
               <PageContent className='content' content={content} />
             </div>
           </div>
@@ -95,6 +121,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  firstTitle: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
@@ -107,6 +134,10 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        firstTitle={post.frontmatter.firstTitle}
+        firstParagraph={post.frontmatter.firstParagraph}
+        secondTitle={post.frontmatter.secondTitle}
+        secondParagraph={post.frontmatter.secondParagraph}
         content={post.html}
       />
     </Layout>
@@ -125,6 +156,10 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        firstTitle
+        firstParagraph
+        secondTitle
+        secondParagraph
       }
     }
   }
