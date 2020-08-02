@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features2 from "../components/Features2";
 import BlogRoll from "../components/BlogRoll";
+// import logo from '/static/img/arbre_de_vie_gustav_klimt.jpg'
 
 import "./index-page-style.css";
 import { Helmet } from "react-helmet";
@@ -86,6 +87,7 @@ export const IndexPageTemplate = ({
         fontFamily: "Open Sans",
       }}
     >
+    
       <div className='container'>
         <div className='section'>
           <div className='columns'>
@@ -134,7 +136,20 @@ export const IndexPageTemplate = ({
                       {description}{" "}
                     </p>
                   </div>
+                  
                 </div>
+                <div
+                  className='full-width-image'
+                  style={{
+                    backgroundImage: `url(/img/arbre_de_vie_gustav_klimt.jpg)`,
+                    textAlign: "center",
+                    paddingTop:'150px',
+                    height: '30px',
+                    backgroundPosition: 'center center',
+                    marginTop: '30px',
+                    marginBottom: '50px'
+                  }}
+                ></div>
                 <div className='content'>
                   <div>
                     <h3
@@ -142,6 +157,7 @@ export const IndexPageTemplate = ({
                       style={{
                         textAlign: "center",
                         fontFamily: "Sacramento, cursive",
+                        marginTop: '20px'
                       }}
                     >
                       {secondpitch.title}

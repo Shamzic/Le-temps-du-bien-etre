@@ -5,7 +5,7 @@ title: Vos massages
 image: /img/services-couverture.jpg
 heading: Une variété de prestations adaptées à vos besoins
 description: >-
-  Je vous propose d'allier des techniques de massage et rituels du corps personnalisés avec les bienfaits de la phytothérapie (soins par les plantes) afin d'adapter et de cibler vos besoins, pour une efficacité optimale et durable de votre bien-être et une détente profonde et permanente.
+  Je vous propose d'allier des techniques de massage et rituels du corps personnalisés  afin d'adapter et de cibler vos besoins, pour une efficacité optimale et durable de votre bien-être et une détente profonde et permanente.
 intro:
   blurbs:
     # - image: /img/jacuzzi.jpg
@@ -88,13 +88,6 @@ pricing:
         - Invitation au lâcher-prise
       plan: "Le Thaïlandais à l'huile"
       price: "1h : 59€ / 1h30 : 89€"
-    - description: Le temps d’un étirement
-      items:
-        - Massage traditionnel Thaïlandais, physique et énergétique
-        - Sollicite toutle système musculaire par une gestuelle rythmique
-        - Des pressions et des étirements doux
-      plan: "Le Thaïlandais au sol"
-      price: "1h : 59€ / 1h30 : 89€"
     - description: Le temps d'une relaxation
       items:
         - Massage très relaxant qui permet de relâcher les tensions musculaires
@@ -117,4 +110,11 @@ pricing:
         - Douceur et fermeté
       plan: "Le Shirotchampi"
       price: "45min : 44€"
+    - description: 
+      items:
+        - Massage bien-être du dos
+        - Disponible en forfait de 5 séances d'une heure au tarif 250€ (durée d'utilisation sur 6 mois ou 1 an.)
+      plan: "Massage du DOS"
+      price: "30min : 40€"
+      
 ---

@@ -29,7 +29,7 @@ export const AboutPageTemplate = ({
         <div
           className='full-width-image-container margin-top-1'
           style={{
-            backgroundImage: `url(/img/apropos-couverture.jpg)`,
+            backgroundImage: `url(/img/arbre_de_vie_gustav_klimt.jpg)`,
             backgroundPosition: "center center",
             marginTop: "-10%",
             height: "450px",

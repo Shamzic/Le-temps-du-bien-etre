@@ -5,7 +5,7 @@ title: A propos
 firstTitle: Mon parcours
 
 firstParagraph: >
-  Je m'appelle Catherine PETITBON, j'ai 53 ans et j'ai fait une formation à RENNES (SANTAYAREA) pour devenir "Praticienne en massages bien-être". Cette formation m'a permis de confirmer mon envie de faire ce métier et d'apporter du bien-être aux gens.
+  Je m'appelle Catherine PETITBON, j'ai 53 ans et j'ai suivi une formation à RENNES (SANTAYAREA) pour devenir "Praticienne en massages bien-être". Cette formation m'a permis de confirmer mon envie de faire ce métier et d'apporter du bien-être aux gens.
 
 secondTitle: Le bien-être pour moi
 

@@ -132,6 +132,7 @@ export const ProductPageTemplate = ({
               </h2>
               <p className="is-size-5">{pricing.description}</p>
 */}
+            <div style={{'font-size': '12px', 'textAlign': 'center', 'fontStyle': 'italic'}}>Mes massages n'ont aucun but thérapeutique et sont dénués de toute connotation sexuelle.</div>
             </div>
           </div>
         </div>
