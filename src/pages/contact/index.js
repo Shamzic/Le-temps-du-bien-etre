@@ -86,11 +86,15 @@ export default class Index extends React.Component {
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                 <input type='hidden' name='form-name' value='contact' />
-                <div hidden>
-                  <label>
-                    Ne remplissez pas cela:{" "}
-                    <input name='bot-field' onChange={this.handleChange} />
-                  </label>
+                <div style={{'marginBottom':'25px'}}>
+                  <p>
+                    Contactez-moi par email : <b>letempsdumieuxetre@gmail.com</b> 
+                    <br/>
+                    Par téléphone au <b>06 66 85 10 61</b>
+                    <br/>
+                    <br/>
+                    Ou directement via le <b>formulaire de contact</b> ci-dessous :
+                  </p>
                 </div>
                 <div className='field'>
                   <label className='label' htmlFor={"name"}>
@@ -141,6 +145,7 @@ export default class Index extends React.Component {
                     Envoyer
                   </button>
                 </div>
+
               </form>
             </div>
           </div>
