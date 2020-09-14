@@ -10,6 +10,12 @@ featuredimage: /img/gommage-visage_00-ban.jpg
 tags:
   - gommage bienfaits corps
 ---
+![](/img/gommage-visage_00-ban.jpg)
+
+
+
 Après le gommage, la peau est plus réceptive, les huiles pénètrent mieux et leurs bienfaits sont optimisés. 
+
+
 
 Ce simple geste fait des miracles. En éliminant les cellules mortes à la surface de la peau, il la rend lisse, homogène et plus éclatante.
