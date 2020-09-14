@@ -5,16 +5,29 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 const FeatureGrid = ({ gridItems }) => (
   <div className='columns is-multiline'>
     {gridItems.map((item) => (
-      <div key={item.text} className='column is-12 is-centered'>
+      <div key={item.text} className=' is-12 is-flex'>
         <section className='section'>
-          <div className='has-text-centered'>
+          <div className='columns is-12 has-text-left'>
             <div
               style={{
-                width: "300px",
-                display: "inline-block",
               }}
+              className="column is-6"
             >
               <PreviewCompatibleImage imageInfo={item} />
+            </div>
+            <div
+              className="column is-6"
+            >
+              <h3 className="has-text-centered" style={{fontSize: "17px", marginBottom:'40px'}}>Gommages du corps</h3>
+              <div className="has-text-left has-text-weight-medium"  style={{marginLeft: "35px"}}>
+                <i>
+                  <p className="">Gommage aux sels et huile d'abricot</p>
+                  <p>Gommage au Savon Noir</p>
+                  <p>Gommage au sucre</p>
+                  <p>Gommage aux sels et huile d'argan</p>
+                </i>
+              </div>
+
             </div>
           </div>
           <p

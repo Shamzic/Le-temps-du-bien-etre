@@ -90,6 +90,7 @@ export const AboutPageTemplate = ({
                   fontSize: "35px",
                   fontFamily: "Sacramento, cursive",
                   fontWeight: "bold",
+                  color: "#eaa42a",
                 }}
               >
                 {firstTitle}
@@ -106,6 +107,7 @@ export const AboutPageTemplate = ({
                   fontFamily: "Sacramento, cursive",
                   marginTop: "20px",
                   fontWeight: "bold",
+                  color: "#93C47D",
                 }}
               >
                 {secondTitle}

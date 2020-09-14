@@ -3,9 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 import { Helmet } from "react-helmet";
 export const ProductPageTemplate = ({
@@ -14,9 +12,6 @@ export const ProductPageTemplate = ({
   heading,
   description,
   intro,
-  main,
-  testimonials,
-  fullImage,
   pricing,
 }) => (
   <div className='content'>
@@ -67,6 +62,7 @@ export const ProductPageTemplate = ({
                   marginTop: 0,
                   textAlign: "center",
                   fontFamily: "'Sacramento', cursive",
+                  color: "#eaa42a",
                 }}
               >
                 {heading}

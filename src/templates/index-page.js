@@ -20,6 +20,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   secondpitch,
   description,
+  description2,
   intro,
 }) => (
   <div>
@@ -128,6 +129,7 @@ export const IndexPageTemplate = ({
                       style={{
                         textAlign: "center",
                         fontFamily: "'Sacramento', cursive",
+                        color: "#eaa42a",
                       }}
                     >
                       {heading}
@@ -135,6 +137,10 @@ export const IndexPageTemplate = ({
                     <p style={{ fontFamily: "Open Sans, sans-serif" }}>
                       {description}{" "}
                     </p>
+                    <p style={{ fontFamily: "Open Sans, sans-serif" }}>
+                      {description2}{" "}
+                    </p>
+                    <p>A mon domicile : <i>15 rue de Tarragone, 72000 Le Mans (Quartier du Villaret).</i></p>
                   </div>
                   
                 </div>
@@ -157,7 +163,8 @@ export const IndexPageTemplate = ({
                       style={{
                         textAlign: "center",
                         fontFamily: "Sacramento, cursive",
-                        marginTop: '20px'
+                        marginTop: '20px',
+                        color: "#93C47D",
                       }}
                     >
                       {secondpitch.title}
@@ -223,6 +230,7 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   secondpitch: PropTypes.object,
   description: PropTypes.string,
+  description2: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -241,6 +249,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         secondpitch={frontmatter.secondpitch}
         description={frontmatter.description}
+        description2={frontmatter.description2}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -276,6 +285,7 @@ export const pageQuery = graphql`
           description
         }
         description
+        description2
         intro {
           blurbs {
             image {

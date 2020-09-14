@@ -10,7 +10,9 @@ mainpitch:
     « Une approche différente de votre bien être autour des bienfaits du Massage et du potentiel que nous offre la Nature »
 description: >-
   Différentes prestations de bien-être déclinées sous différentes formules selons vos envies...
-  Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé.
+  Laissez vous tenter par l'Abhyanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels relaxants vous est proposé.
+description2: >-
+  Profitez également d'un gommage du corps aux sels ou sucre pour retrouver une peau douce et nourrie qui pourra être suivi d'un massage à l'huile chaude.
 intro:
   blurbs:
     - image: /img/massage-gros-plan.jpg
@@ -41,11 +43,11 @@ main:
 secondpitch:
   title: Déplacements à domicile
   description1: >
-    Prévoyez un endroit isolé et calme pour recevoir le massage en toute intimité sans téléphones, ordinateurs ni horloges et une pièce spacieuse afin d'y mettre ma table de massage et pouvoir circuler autour.
+    Je me déplace chez vous avec ma table de massage et tout le matériel nécessaire pour un massage IDEAL (draps de bain, couvertures, musique....etc).
   description2: >
-    Préparez une ambiance tamisée, chaleureuse (bougie, encens...) selon vos goûts. Prévoyez le port d'une culotte ou d'un string et pour le haut, votre poitrine sera toujours recouverte d'une serviette.
+    Prévoyez un endroit isolé et calme pour recevoir le massage en toute intimité sans téléphones, ordinateurs ni horloges et une pièce spacieuse afin d'y mettre ma table de massage et pouvoir circuler autour.
   description3: >
-    Prévoyez quelques serviettes de bain pour la table et  pour vous couvrir.
+    Laissez vous aller pour profiter pleinement de ce massage, CHEZ VOUS.
   description4: >
-    Laissez vous aller pour profiter pleinement de ce massage, CHEZ VOUS, et prendre ensuite une douche ou profiter des bienfaits du massage en gardant l'huile sur le corps pour permettre une meilleure hydratation.
+
 ---
