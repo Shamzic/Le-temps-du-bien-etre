@@ -25,6 +25,8 @@ const FeatureGrid = ({ gridItems }) => (
                   <p>Gommage au Savon Noir</p>
                   <p>Gommage au sucre</p>
                   <p>Gommage aux sels et huile d'argan</p>
+                  <hr dotted style={{ width: '80%', opacity: '0.5', marginTop: '25px',  marginBottom: '20px', marginRight: '20%', borderTop:'dotted  1px'}}/>
+                  <p>Tarif pour une durée de 30 minutes : 20€</p>
                 </i>
               </div>
 

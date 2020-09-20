@@ -5,7 +5,12 @@ const Pricing = ({ data }) => (
   <div className='columns'>
     {data.map((price) => (
       <div key={price.plan} className='column'>
-        <section className='section box '>
+        <section className='section box '
+        style={{
+          background: '#ed9c74',  /* fallback for old browsers */
+          background: '-webkit-linear-gradient(to right, #F1F2B5, #ed9c74)',  /* Chrome 10-25, Safari 5.1-6 */
+          background: 'linear-gradient(to right, #F1F2B5, #ed9c74)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }}>
           <h4
             className='has-text-centered has-text-weight-semibold'
             style={{ fontStyle: "italic", fontSize: "17px" }}
