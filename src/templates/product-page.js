@@ -75,14 +75,17 @@ export const ProductPageTemplate = ({
               >
                 {description}
               </p>
+              <p>
+              Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé. Les tarifs sont disponibles ci-dessous.
+              </p>
             </div>
           </div>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
-              <Features gridItems={intro.blurbs} />
               <Pricing data={pricing.plans} />
               <Pricing data={pricing.planstwo} />
               <Pricing data={pricing.plansthree} />
+              <Features gridItems={intro.blurbs} />
             <div style={{fontSize: '12px', textAlign: 'center', fontStyle: 'italic'}}>Mes massages n'ont aucun but thérapeutique et sont dénués de toute connotation sexuelle.</div>
             </div>
           </div>

@@ -143,8 +143,8 @@ export const IndexPageTemplate = ({
                     <p>A mon domicile : <i>15 rue de Tarragone, 72000 Le Mans (Quartier du Villaret).</i></p>
                     <div >
                       <h3 style={{fontSize: '18px'}}>Horaires</h3>
-                      <p>Du lundi au jeudi de 9h à 21 heures. </p>
-                      <p>Le vendredi matin. </p>
+                      <p>Du lundi au dimanche matin de 9h à 21h.</p>
+                      <p>Le vendredi matin.</p>
                       <p>Possibilité le dimanche après-midi.</p>
                     </div>
                   </div>

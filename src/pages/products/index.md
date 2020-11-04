@@ -19,7 +19,7 @@ intro:
     #     Espace de repos et vente produits avec un bibliothèque, des transats et hamacs, une tisanerie, des produits bio divers (thé, tisanes, huiles et crèmes), des bijoux.
     - image: /img/massage-gros-plan.jpg
       text: >
-        Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé. Les tarifs sont disponibles ci-dessous.
+        Laissez vous également tenter par un ensemble de gommages du corps.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
