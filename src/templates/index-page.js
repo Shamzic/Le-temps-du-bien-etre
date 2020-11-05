@@ -144,7 +144,6 @@ export const IndexPageTemplate = ({
                     <div >
                       <h3 style={{fontSize: '18px'}}>Horaires</h3>
                       <p>Du lundi au dimanche matin de 9h à 21h.</p>
-                      <p>Le vendredi matin.</p>
                       <p>Possibilité le dimanche après-midi.</p>
                     </div>
                   </div>
