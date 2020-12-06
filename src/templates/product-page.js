@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
@@ -75,6 +75,22 @@ export const ProductPageTemplate = ({
               >
                 {description}
               </p>
+              <div className='section box '
+                style={{
+                  background: '#ed9c74',  /* fallback for old browsers */
+                  background: '-webkit-linear-gradient(to left, #F1F2B5, #ed9c74)',  /* Chrome 10-25, Safari 5.1-6 */
+                  background: 'linear-gradient(to left, #F1F2B5, #ed9c74)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                }}>
+              <h5 style={{
+                fontStyle: "italic",
+                  marginTop: 0,
+                  textAlign: "left",
+                }}>Nouveauté : <span style={{color: '#fd3f92'}}>Cartes KDO</span></h5>
+                <p>Vous souhaitez offrir <span style={{color: '#fd3f92'}}><b>un moment de bien-être</b></span> à l'un de vos proches pour une occasion ou simplement pour faire plaisir : massage solo relaxant, massage DUO ou massage 4 mains, tout est possible à offrir...</p>
+                <p>Les cartes KDO sont valables 1 an.</p>
+                <p><span style={{color: '#fd3f92'}}><b>Du 1er au 31 décembre KDO : 50€ le massage d'une heure.</b></span></p>
+                <p><Link to="/contact" style={{ color: '#363636'}}><b>Contactez-moi en cliquant ici</b></Link> pour passer commande d'une carte KDO et n'hésitez pas à me demander des conseils pour le choix du massage, celui-ci peut être choisi le jour de la prestation. Le paiement peut se faire par chèque (à envoyer au 15 rue de Tarragone 72000 Le Mans, ou en liquide (le jour de la prestation).</p>
+              </div>
               <p>
               Laissez vous tenter par l'Abyhanga, le Shiatsu ou encore le Balinais. Un ensemble de massages traditionnels vous est proposé. Les tarifs sont disponibles ci-dessous.
               </p>
